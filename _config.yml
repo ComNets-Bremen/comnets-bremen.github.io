@@ -14,6 +14,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://comnets-bremen.github.io"
 github_username:  ComNets-Bremen
+timezone: Europe/Berlin
 
 # Build settings
 markdown: kramdown
