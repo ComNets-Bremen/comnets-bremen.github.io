@@ -2,7 +2,18 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <a class="site-title" href="{{ site.baseurl }}/">
+        {% if site.logo %}
+            <img src="{{ site.logo | prepend: site.baseurl }}"
+                 {% if site.logo_width %} width="{{site.logo_width}}"{% endif %}
+                 {% if site.logo_height %} height="{{site.logo_height}}"{% endif %}
+                 alt="{{ site.title }}"
+                 />
+
+        {% else %}
+            {{ site.title }}
+        {% endif %}
+    </a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -16,7 +27,9 @@
       <div class="trigger">
         {% for my_page in site.pages %}
           {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">
+              {{ my_page.title }}
+          </a>
           {% endif %}
         {% endfor %}
       </div>
