@@ -18,3 +18,12 @@ timezone: Europe/Berlin
 
 # Build settings
 markdown: kramdown
+
+# Generic settings
+
+logo:   "/images/logo_comnets.png"
+logo_width: 201
+logo_height: 42
+
+favicon: "/images/favicon.png"
+
