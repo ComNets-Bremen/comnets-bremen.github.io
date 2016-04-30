@@ -1,7 +1,6 @@
 ---
 layout: page
 title: License
-permalink: /license/
 ---
 
 Unless otherwise stated, all files are licensed under the GPLv3 license:
