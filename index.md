@@ -12,6 +12,6 @@ For additional information, please visit our webpage at
 Projects hosted on GitHub
 =========================
 
-- Keetchi
-- WUSN
-- TWIN
+- **Keetchi** -- A library for opportunistic communication
+- **WUSN** -- A platform for Wireless Underground Sensor Networks
+- **TWIN** -- A flexible Sensor Network Testbed
