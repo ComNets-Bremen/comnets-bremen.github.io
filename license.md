@@ -18,3 +18,7 @@ Unless otherwise stated, all files are licensed under the GPLv3 license:
 
     You should have received a copy of the GNU General Public License along
     with this program; if not, see <http://www.gnu.org/licenses/>
+
+
+The complete license can be found at
+[gnu.org/licenses/gpl-3.0](https://gnu.org/licenses/gpl-3.0 "gnu.org")
