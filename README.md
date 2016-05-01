@@ -12,3 +12,13 @@ To run the testserver, enter `jekyll serve` on your local machine.
 For more information, visit [jekyllrb.com](https://jekyllrb.com/ "Jekyll Webpage")
 
 
+Troubleshooting
+---------------
+
+If you get any problems when starting the server like
+
+    WARN: Unresolved specs during Gem::Specification.reset:
+    jekyll-watch (~> 1.1)
+    WARN: Clearing out unresolved specs.
+
+please consider removing the `Gemfile`
