@@ -27,6 +27,5 @@ logo_height: 42
 
 favicon: "/images/favicon.png"
 
-gems:
-  - jekyll-sitemap
+gems: ['jekyll-sitemap', 'jekyll-github-metadata']
 
