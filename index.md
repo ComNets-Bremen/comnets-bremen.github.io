@@ -12,6 +12,10 @@ For additional information, please visit our webpage at
 Projects hosted on GitHub
 =========================
 
-- **Keetchi** -- A library for opportunistic communication
-- **WUSN** -- A platform for Wireless Underground Sensor Networks
-- **TWIN** -- A flexible Sensor Network Testbed
+{% for repository in site.github.public_repositories %}
+  {% if repository.name != "comnets-bremen.github.io" %}
+  * [**{{ repository.name }}**]({{ repository.html_url }}) -- {{
+    repository.description }}
+  {% endif %}
+{% endfor %}
+
