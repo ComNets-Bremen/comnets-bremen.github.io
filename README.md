@@ -22,3 +22,8 @@ If you get any problems when starting the server like
     WARN: Clearing out unresolved specs.
 
 please consider removing the `Gemfile`
+
+Force rebuild of GitHub pages
+-----------------------------
+
+`git commit -m 'rebuild pages' --allow-empty`
