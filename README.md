@@ -27,3 +27,5 @@ Force rebuild of GitHub pages
 -----------------------------
 
 `git commit -m 'rebuild pages' --allow-empty`
+
+or call the script `updatePages.sh`
